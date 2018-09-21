@@ -1,8 +1,0 @@
-Started GET "/" for 165.91.12.132 at 2018-09-21 20:53:31 +0000
-Cannot render console from 165.91.12.132! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by ApplicationController#hello_test as HTML
-  Rendering html template
-  Rendered html template (0.0ms)
-Completed 200 OK in 11ms (Views: 4.2ms | ActiveRecord: 0.0ms)
-
-
