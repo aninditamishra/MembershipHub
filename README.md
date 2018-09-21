@@ -30,9 +30,9 @@ a non-admin general council member access.
 * Enforced archival instead of permanent deletion
 * Internal `meeting` objects
 
-## Topics of interest:
-* This application requires Ruby 2.3.4
-* This application requires Rails 5.1.4
+## Topics of interest
+* This application requires Ruby 2.5.1
+* This application requires Rails 5.2.1
 
 ## git Basics
 Before any work is done, *always* run:
