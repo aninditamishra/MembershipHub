@@ -1,0 +1,387 @@
+.butt {
+  clear: both;
+}
+
+.empty-state {
+  text-align: center;
+  font-style: italic;
+  margin-top: 0.2rem;
+}
+
+.company-selected-list {
+  margin-bottom: 0;
+  margin-top: 0.1rem;
+}
+
+.company-selected {
+  list-style-type: none;
+  margin: 0.5em;
+  display: inline-block;
+  padding: 0.3em 0.7em;
+  border: solid white 1px;
+  background-color: #eee;
+  border-radius: 3px;
+  font-size: 0.9rem;
+}
+
+.remove-selected {
+  cursor: pointer;
+  padding: 0 0.2rem;
+
+  &:hover {
+    //color: $alert-color;
+  }
+}
+
+.asc th.sorting::after,
+.desc th.sorting::after {
+  font-family: "foundation-icons";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  text-decoration: inherit;
+  margin-left: 0.5em;
+  position: relative;
+  top: 1px;
+}
+
+.asc th.sorting::after {
+  content: "\f109";
+}
+
+.desc th.sorting::after {
+  content: "\f10c";
+}
+
+company-selection {
+  float: right;
+}
+
+.grid-header {
+  clear: both;
+  height: 3em;
+}
+
+registration-information .message {
+  text-align: center;
+  margin-bottom: 1em;
+
+  p {
+    font-style: italic;
+    margin: 0;
+  }
+}
+
+registration-information .unregistered {
+  margin-bottom: 0;
+}
+
+.company-detail-vic {
+  font-style: italic;
+  font-size: 0.6em;
+  padding-left: 0.5rem;
+  color: #b17a14;
+}
+
+registration-information dl {
+  dt {
+    display: inline;
+  }
+
+  dd {
+    display: inline;
+
+    &:after {
+     content:"\a";
+     white-space: pre;
+    }
+  }
+}
+
+registration-history-dialog {
+  table {
+    width: 100%;
+  }
+}
+
+financial-history .outstanding {
+  font-weight: bold;
+}
+
+.change_registration_email label {
+  font-weight: bold;
+}
+
+.send_notification_email {
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: #222;
+
+  input {
+    margin-right: 0.2rem;
+  }
+}
+
+dynamic-grid table {
+  th[data-field="company_name"] {
+    width: 20rem;
+  }
+}
+
+.companies_action_group {
+  float: right;
+}
+
+.companies_clear_selected {
+  margin-right: 1rem;
+}
+
+.per-page-text {
+  font-size: 0.9rem;
+  color: #5e5e5e;
+  position: relative;
+  top: 5px;
+  padding-left: 5px;
+}
+
+company-contacts {
+  .contact-primary_contact {
+    color: #b17a14;
+  }
+
+  .add-contact {
+    float: right;
+    margin-bottom: 0;
+  }
+
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .unconfirmed {
+    color: #5e5e5e;
+
+    a {
+      color: #5e5e5e;
+    }
+
+    .contact_email {
+      text-decoration: line-through;
+    }
+  }
+
+  .inactive {
+    color: #a6a6a6;
+
+    a {
+      color: #a6a6a6;
+    }
+  }
+
+  clear: both;
+
+  .contact-actions {
+    float: right;
+
+    button {
+      margin-top: 0.5em;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.new-contact-email-note {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.note-date-actor {
+  color: #8e8e8e;
+  font-size: 0.8rem;
+}
+
+.no-notes {
+  font-style: italic;
+  font-size: 0.8rem !important;
+}
+
+.fair-notes h5, .retained-notes h5 {
+  margin-bottom: 0.3rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.retained-notes h5 {
+  margin-top: 1rem;
+}
+
+.remove-note {
+  float: right;
+  padding-right: 0.2rem;
+  padding-top: 0.05rem;
+  //color: $base;
+
+  &:hover {
+    //color: $alert-color;
+  }
+}
+
+.log-date-actor {
+  color: #9d9d9d;
+  font-size: 0.9rem;
+}
+
+company-logs-dialog {
+  .dialog-body {
+    height: 20rem;
+    overflow-y: scroll;
+  }
+
+  .dialog-body::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+  }
+
+  .dialog-body::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+  }
+}
+
+.company-header-actions {
+  list-style-type: none;
+  margin: 1.5rem 0 0 0;
+  overflow: hidden;
+
+  li {
+    padding-left: 1rem;
+    float: right;
+  }
+}
+
+.recruiter-list {
+  font-weight: bold;
+}
+
+.edit-registration {
+  hr {
+    margin: 0.3rem 0 .7rem 0;
+  }
+
+  h3, .header-label {
+    font-weight: bold;
+    font-size: 1rem;
+    color: #222;
+  }
+
+  .day-attending-days {
+    .day-name {
+      display: inline-block;
+      width: 5rem;
+      font-size: 0.875rem;
+    }
+  }
+
+  .day-attending-options {
+    list-style-type: none;
+    display: inline-block;
+
+    li {
+      display: inline-block;
+      width: 8rem;
+    }
+
+    //@media #{$small-only} {
+    //  margin-left: 0;
+    //}
+  }
+
+  .recruiter-name-list {
+    margin-bottom: 0;
+  }
+
+  .recruiter-name-list input[type="text"] {
+    display: inline-block;
+    width: 90%;
+  }
+
+  .remove-recruiter {
+    font-size: 1.3rem;
+    padding-left: 0.4rem;
+    //color: $alert-color;
+  }
+}
+
+.admin-edit-registration {
+  h3 {
+    font-weight: bold;
+  }
+
+  ul {
+    margin: 0;
+    list-style-type: none;
+
+    input[type="checkbox"] {
+      margin-bottom: 0.6rem;
+      margin-right: 0.3rem;
+    }
+  }
+
+  .instructions:empty {
+    margin-bottom: 0;
+  }
+}
+
+#confirm-contact-dialog {
+  .important {
+    text-transform: uppercase;
+    //color: $alert-color;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  .contact_name, .contact_name a {
+    color: #787878;
+  }
+}
+
+merge-companies-dialog {
+  .dialog-header {
+      margin-bottom: 0.5rem;
+  }
+
+  .dialog-body {
+    padding-top: 0.5rem;
+  }
+
+  .jqac.ui-autocomplete-input {
+    margin-bottom: 1.5rem;
+  }
+
+  .merge-header {
+    border-bottom: solid #e8e8e8 1px;
+    padding-bottom: 0.6rem;
+    margin-bottom: 0.5rem;
+
+    h3 {
+      margin-top: 0;
+      margin-bottom: 0;
+      font-size: 1.5rem;
+    }
+
+    .clear-company {
+      display: block;
+      font-size: 0.9rem;
+      padding-top: 0.3rem;
+      padding-bottom: 0.1rem;
+    }
+  }
+}

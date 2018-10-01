@@ -1,0 +1,134 @@
+.email-navigation {
+  margin-left: 0;
+  padding: 0.75rem 1.25rem;
+  background: #f2f2f2;
+  text-align: center;
+
+  li {
+    display: inline-block;
+    margin-right: 1em;
+  }
+
+  .fi-arrow-right {
+    color: #b3b3b3;
+  }
+}
+
+.input-mimic {
+  border: solid #ccc 1px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+  padding: 0 0.5rem;
+}
+
+.input-mimic .applied-filters {
+  margin: 0;
+}
+
+.input-mimic .company-selected-list {
+  margin-left: 0;
+}
+
+.edit-filters-link {
+  float: right;
+  font-size: 0.95rem;
+}
+
+.input-mimic, .email-preview-to {
+ .applied-filters:empty {
+    padding: 0.4rem 0;
+  }
+
+  .applied-filters:empty:before {
+    content: "All Companies";
+  }
+}
+
+.email-preview-to > strong {
+  float: left;
+}
+
+.email-preview-to .applied-filters {
+  margin-left: 2rem;
+  margin-bottom: 0;
+  padding-top: 0;
+  margin-top: -0.7rem;
+}
+
+.email-preview-to .applied-filters:empty {
+  margin-left: 2rem;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 0;
+  font-size: 1rem;
+}
+
+.email-preview-to .company-selected-list {
+  margin-top: -0.7rem;
+  margin-left: 1.5rem;
+}
+
+.email-preview-to,
+.email-preview-headers,
+.email-preview-body,
+.email-preview-attachments {
+  border-bottom: solid #eee 2px;
+  padding: 1em;
+}
+
+.email-preview-message {
+  padding: 0;
+  margin-left: 0.9375rem;
+  margin-right: 0.9375rem;
+  margin-bottom: 2em;
+  border: solid #eee 1px;
+  box-shadow: 2px 2px 4px rgba(151, 151, 151, 0.2);
+}
+
+#email-attachments {
+  margin-bottom: 1em;
+
+  border: dashed #ddd 1px;
+  color: #888;
+
+  .email-attachments-icon {
+    font-size: 1.6rem;
+    line-height: 0;
+    position: relative;
+    top: 3px;
+  }
+}
+
+.email-preview-attachments {
+  position: relative;
+  padding-left: 2rem;
+
+  ul {
+    margin-bottom: 0;
+  }
+
+  .email-attachments-icon {
+    font-size: 2rem;
+    position: absolute;
+    top: 18px;
+    left: 1rem;
+  }
+}
+
+.email-preview-attachment {
+  list-style-type: none;
+  margin: 0.5em;
+  display: inline-block;
+  padding: 0.2em 0.5em;
+  border: solid white 1px;
+  background-color: #eee;
+  border-radius: 0.5em;
+  position: relative;
+}
+
+.to_field_note {
+  font-style: italic;
+  font-size: 0.9rem;
+  color: #8e8e8e;
+  margin-left: 2rem;
+}

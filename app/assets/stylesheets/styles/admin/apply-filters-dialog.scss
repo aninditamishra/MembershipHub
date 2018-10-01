@@ -1,0 +1,103 @@
+apply-filters-dialog, student-apply-filters-dialog {
+  .collapse .columns {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .filter-group-header {
+    font-size: 0.9rem;
+    white-space: nowrap;
+    color: #737373;
+    margin-top: 0.3rem;
+  }
+
+  ul {
+    list-style-type: none;
+    margin-left: 0.2rem;
+  }
+
+  li {
+    white-space: nowrap;
+  }
+
+  li label {
+    color: #000;
+    padding: 0.16rem 0;
+  }
+
+  li input[type="checkbox"] {
+    margin-bottom: 0px;
+    margin-right: 0.2rem;
+  }
+
+  .numeric-filter {
+    margin: 0;
+
+    input[type="number"] {
+      height: 2rem;
+      display: inline;
+      margin-bottom: 0;
+      position: relative;
+      top: 2px;
+    }
+
+    input[type="radio"] {
+      display: none;
+    }
+
+    label {
+      margin: 0;
+    }
+  }
+
+  .date-filter {
+    input {
+      margin-bottom: 0.2rem;
+    }
+
+    p {
+      margin-bottom: 0.2rem;
+      color: #888;
+      font-size: 0.75rem;
+    }
+  }
+
+  .xtiny.button {
+    padding-top: 0.625rem;
+    padding-right: 0.6875rem;
+    padding-bottom: 0.6875rem;
+    padding-left: 0.6875rem;
+    font-size: 0.6875rem;
+  }
+
+  .lt .lt {
+    //background-color: $primary-color;
+    //color: $button-font-color;
+  }
+
+  .eq .eq {
+    //background-color: $primary-color;
+    //color: $button-font-color;
+  }
+
+  .gt .gt {
+    //background-color: $primary-color;
+    //color: $button-font-color;
+  }
+}
+
+apply-filters-dialog.reveal-modal.medium.open {
+  min-width: 55rem;
+}
+
+apply-filters-dialog {
+  input[type="number"] {
+    width: 4em;
+  }
+}
+
+student-apply-filters-dialog {
+  input[type="number"] {
+    width: 5em;
+  }
+}

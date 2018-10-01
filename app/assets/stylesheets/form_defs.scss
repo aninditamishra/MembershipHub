@@ -1,0 +1,165 @@
+// Place all the styles related to the FormDefs controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.event-row:hover {
+  cursor: pointer;
+}
+
+#event-table-wrapper {
+  width: 50%; /*can be in percentage also.*/
+  height: auto;
+  margin: 5% auto;
+  padding: 10px;
+  position: relative;
+}
+
+.main-content {
+  color: #202020;
+}
+
+#event-name {
+  font-size: 2.2rem;
+  margin: 0;
+}
+
+#event-date {
+  margin: 0 0 0 10px;
+}
+
+form {
+  display: inline-block;
+}
+
+.forms-container {
+  margin:  2rem 0;
+}
+
+#form-body {
+  margin-top: 2rem;
+}
+
+#new-question-form {
+  margin: 3rem 0;
+}
+
+#events-button {
+  margin-bottom: 2rem;
+}
+
+#add-question-button {
+  margin: 5px 0;
+}
+
+.new-question-field {
+  margin: 5px 0;
+  display: inline-block;
+}
+
+#add-question-title {
+  border-top: 2px black solid;
+  margin: 0;
+}
+
+#form-preview-title {
+  border-bottom: 2px black solid;
+  margin: 0;
+}
+
+
+.question-field-wrapper {
+  margin: 10px 0;
+}
+
+#form-preview {
+  background-color: #DAD5CF;
+  padding: 10px;
+  margin: 15px 0;
+}
+
+.question-field {
+  display: inline-block;
+}
+
+/*.option-wrapper{
+  font-size: 20px;
+  background:transparent;
+  border: none;
+}*/
+
+.option-format{
+  font-size: 15px;
+  background:transparent;
+  border: none;
+  display: inline-block;
+}
+.question-box{
+  background:transparent;
+  border: none;
+  //font-weight: bold;
+  font-size: 20px;
+}
+
+.question-wrapper{
+  padding: 0px 20px 20px 20px;
+}
+
+.question-wrapper:hover{
+  border-top: solid #777064;
+  background-color: #DAD5CF;
+}
+select{
+  font-size: 15px;
+}
+
+.format-select{
+  display:block;
+}
+
+
+
+.answer-input{
+  font-size: 15px;
+}
+
+.editable-text:hover {
+  cursor: pointer;
+  border-bottom: solid 2px #777064;
+}
+
+.date-wrapper{
+  font-size: 20px;
+  padding: 0px 20px 20px 20px;
+}
+
+.date-wrapper:hover{
+  border-top: solid #777064;
+  background-color: #DAD5CF;
+}
+
+.float-right{
+  float: right;
+}
+
+#save-button{
+  margin-top: 20px;
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}
+
+.date-field{
+  padding: 5px 0px;
+}
+
+.delete-button-form{
+  display:inline-block;
+}
+
+.delete-question-form{
+  float:right;
+}
+
+.dead-radio{
+  display:inline-block;
+}

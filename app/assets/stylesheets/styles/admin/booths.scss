@@ -1,0 +1,130 @@
+booth-assignment {
+  .all-companies {
+    .select-show-all {
+      color: black;
+      font-weight: bold;
+    }
+  }
+
+  .unassigned-companies {
+    .booths-fully-assigned {
+      display: none;
+    }
+
+    .select-show-unassigned {
+      color: black;
+      font-weight: bold;
+    }
+  }
+
+  .booths_action_group {
+    float: right;
+  }
+}
+
+.booth-assignments-table {
+  width: 100%;
+
+  th[data-field="company_name"] { width: 17%; }
+  th[data-field="sponsorship_level"] { width: 10%; }
+  th[data-field="registered_at"] { width: 11%; }
+  th[data-field="days"] { width: 7%; }
+  th[data-field="booth_preference"] { width: 8%; }
+}
+
+booth-editable {
+  display: inline-block;
+  text-align: center;
+
+  .container {
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 0.2em;
+    padding: 0.7150em 0.5em;
+  }
+
+  .unassigned {
+    width: 4em;
+    background-color: #FFF;
+    color: #c8c8c8;
+    border: dotted #c8c8c8 2px;
+    border-radius: 0.4em;
+
+    &:hover {
+      background-color: #f8f8f8;
+      border-color: #a1a1a1;
+      color: #a1a1a1;
+    }
+  }
+
+  .assigned {
+    width: 4em;
+    background-color: #FFF;
+    border: solid #dcdcdc 2px;
+    border-radius: 0.4em;
+
+    &:hover {
+      border-color: #bababa;
+    }
+  }
+
+  .editor {
+    background-color: #FFF;
+    border: solid #dcdcdc 2px;
+    border-radius: 0.4em;
+    cursor: inherit;
+    padding: 0.4em;
+
+    .save {
+      padding: 0 0.4rem;
+    }
+
+    .remove {
+      font-size: 1.1rem;
+      position: relative;
+      top: 2px;
+    }
+
+    .remove:hover {
+      //color: $alert-color;
+    }
+  }
+
+  select {
+    margin-bottom: 0;
+    height: 27px;
+    padding: 0 0.3rem;
+  }
+
+  .booth-section {
+    width: 3em;
+  }
+
+  .booth-number {
+    width: 5em;
+  }
+}
+
+.placement-info {
+  font-size: 0.95rem;
+  border-bottom: 0;
+  position: relative;
+  top: 1px;
+
+  &:hover {
+    border-bottom: 0;
+  }
+}
+
+.tooltip {
+  h6 {
+    color: white;
+    font-weight: bold;
+    font-size: 0.8rem;
+  }
+
+  p {
+    margin-bottom: 0.2rem;
+    font-size: 0.8rem;
+  }
+}

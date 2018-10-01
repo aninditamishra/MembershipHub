@@ -1,0 +1,77 @@
+.reveal-modal {
+  padding: 0;
+}
+
+.close-reveal-modal {
+  top: 0.2rem !important;
+  color: #888888 !important;
+  font-size: 2.2rem !important;
+}
+
+.dialog-header {
+  background-color: #dddddd;
+  padding: 0.5rem 1.375rem 0.3rem;
+  margin-bottom: 1.4rem;
+
+  h2 {
+    margin-top: 0.3rem;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+}
+
+.dialog-body {
+  padding: 0 .5750rem;
+}
+
+.dialog-actions {
+  border-top: 1px solid #dddddd;
+  background-color: #f9f9f9;
+  padding-top: 1.375rem;
+}
+
+.dialog-commit, .dialog-close, .dialog-delete-commit {
+  margin-left: 0.6rem;
+  border-radius: 3px;
+  padding-top: 0.875rem;
+  padding-right: 1.75rem;
+  padding-bottom: 0.9375rem;
+  padding-left: 1.75rem;
+  font-size: 0.8125rem;
+}
+
+.dialog-delete-commit {
+  margin-right: 0.6rem;
+}
+
+.dialog-cancel, .dialog-delete {
+  font-size: 0.9rem;
+  padding-left: 1rem;
+}
+
+.button.dialog-cancel {
+  padding-left: inherit;
+}
+
+.dialog-delete-cancel {
+  font-size: 0.9rem;
+}
+
+.dialog-actions a {
+  line-height: 3em;
+}
+
+.dialog-delete {
+  display: block;
+  color: #c00;
+  text-align: right;
+
+  &:hover {
+    color: #8c0000;
+  }
+}
+
+.confirm-text {
+  font-size: 0.9rem;
+  //font-weight: $font-weight-bold;
+}

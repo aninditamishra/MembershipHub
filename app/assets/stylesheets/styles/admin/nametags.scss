@@ -1,0 +1,188 @@
+.nametags-header {
+  padding: 0 0.2rem;
+  padding-bottom: 2rem;
+
+  h2 {
+    margin-top: -.2em;
+    margin-bottom: 0;
+    font-size: 1.9rem;
+    float: left;
+  }
+
+  .button {
+    float: right;
+    padding: .5rem 1rem;
+    margin-bottom: 0;
+  }
+}
+
+nametags {
+  br {
+    clear: both;
+  }
+}
+
+previously-generated-documents {
+  .widget-body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+
+  .widget-body ul {
+    list-style-type: none;
+    margin-left: 0;
+
+    li {
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
+
+    li + li {
+      border-top: solid #e8e8e8 1px;
+    }
+
+    .item_count {
+      display: inline-block;
+      width: 2em;
+      text-align: right;
+      font-weight: bold;
+    }
+  }
+}
+
+#previously-generated-nametags {
+  .widget-body {
+    height: 20rem;
+  }
+}
+
+#previously-generated-infotags {
+  .widget-body {
+    height: 7.9rem;
+  }
+}
+
+queued-names {
+  .widget-body {
+    height: 16.5rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+
+  .widget-body ul {
+    list-style-type: none;
+    margin-left: 0;
+
+    li {
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
+
+    li + li {
+      border-top: solid #e8e8e8 1px;
+    }
+
+    .name-item {
+      font-size: 0.8rem;
+      line-height: 1.35;
+    }
+
+    .checkbox {
+      float: left;
+      margin: .7rem;
+    }
+
+    .company_name {
+      color: #888;
+    }
+
+    .name {
+      font-weight: bold;
+    }
+  }
+}
+
+.ui-autocomplete {
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: default;
+  z-index: 1100;
+}
+
+.jqac.ui-autocomplete-input {
+  margin-top: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.ui-menu {
+  background-color: #FFF;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  list-style-type: none;
+
+  .ui-menu-item {
+    position: relative;
+    cursor: pointer;
+    padding: 0.1rem 0.3rem;
+  }
+
+  .ui-menu-item:hover {
+    background-color: #e8e8e8;
+  }
+}
+
+add-names-dialog {
+  .dialog-header {
+      margin-bottom: 0.5rem;
+  }
+
+  .add-names-body-header {
+    border-bottom: solid #e8e8e8 1px;
+    padding-bottom: 0.6rem;
+    margin-bottom: 0.2rem;
+
+    h3 {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    .clear-company {
+      display: block;
+      font-size: 0.9rem;
+    }
+  }
+
+  .add-names-body-body {
+    height: 20rem;
+    overflow-x: auto;
+    overflow-y: scroll;
+
+    h4 {
+      font-size: 1rem;
+      font-weight: bold;
+      margin: 0.4rem 0 0.8rem 0;
+    }
+
+    input[type="checkbox"] {
+      margin: 0.8rem 0 0 0.5rem;
+    }
+
+    .recruiter-name-list {
+      margin: 0;
+
+      li {
+        list-style-type: none;
+      }
+    }
+  }
+}
+
+.widget-body::-webkit-scrollbar, .add-names-body-body::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+}
+.widget-body::-webkit-scrollbar-thumb, .add-names-body-body::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}

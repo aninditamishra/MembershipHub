@@ -1,0 +1,92 @@
+// Place all the styles related to the Forms controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+// Place all the styles related to the FormDefs controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.event-row:hover {
+  cursor: pointer;
+}
+
+#event-table-wrapper {
+  width: 50%; /*can be in percentage also.*/
+  height: auto;
+  margin: 5% auto;
+  padding: 10px;
+  position: relative;
+}
+
+.main-content {
+  color: #202020;
+}
+
+#event-name {
+  font-size: 2rem;
+  margin-top: 15px;
+
+}
+
+#event-date {
+  margin: 0 0 0 10px;
+}
+
+form {
+  display: block;
+}
+
+.forms-container {
+  margin:  2rem 0;
+}
+
+#form-body {
+  margin-top: 2rem;
+}
+
+#new-question-form {
+  margin: 3rem 0;
+}
+
+#events-button {
+  margin-bottom: 2rem;
+}
+
+#add-question-button {
+  margin: 5px 0;
+}
+
+.question-field {
+  margin: 10px 0;
+
+}
+
+#add-question-title {
+  border-top: 2px black solid;
+  margin: 0;
+}
+
+#form-preview-title {
+  border-bottom: 2px black solid;
+  margin: 0;
+}
+
+.question-field-wrapper {
+  margin-bottom: 15px;
+}
+
+.actions{
+  margin-bottom: 15px;
+}
+
+div.question-field{
+  display: block;
+  font-size: 20px;
+}
+
+h1#event-name{
+  font-size: 2rem;
+}
+
+.answer-input{
+  font-size: 15px;
+}
+

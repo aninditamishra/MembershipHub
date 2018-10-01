@@ -1,0 +1,46 @@
+.docs_site {
+  .nav-tabs .header {
+    text-align: left;
+  }
+
+  .main_index {
+    list-style-type: none;
+    margin-left: 0;
+
+    > li {
+      margin-bottom: 1rem;
+      font-weight: bold;
+    }
+
+    ul {
+      list-style-type: disc;
+      margin-left: 2rem;
+      margin-top: 1rem;
+
+      li {
+        font-weight: normal;
+      }
+    }
+  }
+
+  .content button {
+    cursor: text;
+    display: inline-block;
+    margin: 0;
+    padding: 0.1rem 0.4rem 0.2rem 0.4rem;
+    background-color: #f0f0f0;
+    color: #000;
+    border-radius: 3px;
+    font-weight: bold;
+  }
+
+  .content {
+    h1, h2, h3, h4 {
+      font-weight: bold;
+    }
+  }
+
+  .child_pages {
+    margin-left: 1rem;
+  }
+}

@@ -1,0 +1,198 @@
+@import "../common/custom_mixins";
+@import "../common/sec_font";
+
+/* HEADER ----------------------------------------------------------------- */
+
+header {
+  //background-color: $oil;
+
+  .name a {
+    @include font-icon-only;
+    width: 75px !important;
+    margin-right: 10px;
+    font-size: 1.4rem;
+  }
+}
+
+.staging-notice {
+  background-color: #947420;
+  color: #FFF;
+  margin-top: -3rem;
+  padding: 0.7rem 1rem;
+  position: fixed;
+  z-index: 100;
+  text-align: center;
+  //@include grid-column(12);
+
+  p {
+    margin: 0;
+  }
+}
+
+.staging-notice + main {
+  margin-top: 3rem;
+}
+
+.global-company-search-dropdown {
+  li.ui-state-focus {
+    background-color: #f8f8f8;
+  }
+
+  li + li {
+    border-top: solid #e8e8e8 1px;
+  }
+
+  .global-company-search-company-name {
+    font-weight: bold;
+  }
+
+  .global-company-search-fair-name {
+    color: #c2c2c2;
+    font-weight: lighter;
+    font-size: 0.95rem;
+  }
+}
+
+/* SIDE NAV/TABS --------------------------------------------------------- */
+
+.sidenav {
+  background-color: #FAFAFA;
+  padding: 1rem 0;
+}
+
+.nav-tabs .header {
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.nav-tabs.vertical {
+  max-width: inherit;
+  width: 100%;
+}
+
+.nav-tabs dd > a, .nav-tabs .tab-title > a {
+  padding: 0.5rem 1rem;
+}
+
+.nav-tabs dd > a, .nav-tabs .tab-title > a[disabled="disabled"] {
+  cursor: no-drop;
+  color: #c2c2c2;
+}
+
+.nav-tabs dd > a, .nav-tabs .tab-title.active > a {
+  font-weight: bold;
+}
+
+.nav-tabs .has-form, .nav-tabs .header {
+  list-style-type: none;
+  padding: 0.5rem 1rem;
+}
+
+a[disabled="disabled"] {
+  cursor: no-drop !important;
+}
+
+/* MISC ------------------------------------------------------------------ */
+
+table .button, table button {
+  margin-bottom: 0;
+}
+
+table.sortable {
+  thead th {
+    cursor: pointer;
+  }
+}
+
+radio-button {
+  margin: 0 -2px;
+  float: left;
+  display: inline-block;
+}
+
+.form-list {
+  list-style-type: none;
+  margin-left: 0;
+  margin-bottom: 0.7rem;
+
+  input[type="radio"], input[type="checkbox"] {
+    margin-bottom: 0.5rem;
+  }
+}
+
+label {
+  input[type="radio"], input[type="checkbox"] {
+    margin-right: 0.2rem;
+    position: relative;
+    top: -1px;
+  }
+}
+
+.button-last {
+  margin-bottom: 0;
+}
+
+.form-header {
+  h3 {
+    //font-weight: $font-weight-bold;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.header-hr {
+  margin: 0.3rem 0 0 0;
+  border: 2px solid #f0f0f0;
+}
+
+.markdown-guide {
+  float: right;
+  font-size: 0.95rem;
+}
+
+.form-footer {
+  border: 0 !important;
+  padding-bottom: 0;
+
+  .columns {
+    padding: 0 !important;
+  }
+
+  button, .button {
+    border-radius: 3px;
+    margin-right: 0.5rem;
+  }
+}
+
+.note {
+  color: #7c7979;
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;
+}
+
+#global-company-search .jqac.ui-autocomplete-input {
+  margin-top: 0;
+}
+
+.ui-helper-hidden {
+  display: none;
+}
+
+.ui-helper-hidden-accessible {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.new-alert {
+  font-weight: bold;
+  color: #f9e63d;
+  font-size: 2.8rem;
+  line-height: 1;
+}

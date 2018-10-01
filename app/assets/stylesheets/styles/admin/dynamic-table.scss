@@ -1,0 +1,84 @@
+dynamic-table table {
+  width: 100%;
+}
+
+#toggle-columns-column-list li {
+  padding-bottom: 0.4rem;
+}
+
+#toggle-columns-column-list label {
+  display: inline;
+}
+
+#toggle-columns-column-list input[type="checkbox"] {
+  margin-right: 0.2rem;
+}
+
+.reorder-handle {
+  cursor: move;
+  color: #a6a6a6;
+  margin-right: 0.5rem;
+  position: relative;
+  top: 2px;
+}
+
+filter-management + hr, .fair-select-wrap + hr {
+  margin-top: 0;
+}
+
+.add-filter-button {
+  margin-right: 1rem;
+}
+
+.applied-filters {
+  overflow: hidden;
+  margin-bottom: 1em;
+  margin-left: 0;
+  padding-left: 0;
+  padding-bottom: 0.5em;
+  font-size: 0.9rem;
+}
+
+.applied-filters:empty {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.filter-body {
+  padding: 0 1.4rem !important;
+}
+
+.applied-filter {
+  list-style-type: none;
+  float: left;
+  margin: 0.5em 1em 0.2em 0;
+}
+
+.filter-title,
+.filter-value {
+  display: inline-block;
+  padding: 0.3em 0.7em;
+  border: solid white 1px;
+}
+
+.filter-title {
+  background-color: #d7d7d7;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  font-weight: bold;
+}
+
+.filter-value {
+  background-color: #eee;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.remove-filter {
+  cursor: pointer;
+  padding: 0 0.2rem;
+
+  &:hover {
+    //color: $alert-color;
+  }
+}

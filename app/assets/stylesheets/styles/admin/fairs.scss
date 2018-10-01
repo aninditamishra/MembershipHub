@@ -1,0 +1,213 @@
+#fairs-summary {
+  width: 100%;
+}
+
+#fairs-summary td {
+  vertical-align: top;
+}
+
+#fairs-summary strong {
+  font-size: 150%;
+}
+
+#fairs-summary .fair-settings {
+  margin-left: 0.3rem;
+  font-size: 1rem;
+  padding-top: 0.4rem;
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
+  padding-bottom: 0.5rem;
+}
+
+#fairs-summary .edit-fair {
+  display: block;
+}
+
+#fairs-summary .dates {
+  display: block;
+  padding: 0.1rem 0;
+  color: #595959;
+}
+
+.status-dialog {
+  h3 {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+  }
+
+  p {
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+  }
+
+  .row {
+    border-bottom: 1px solid #DDDDDD;
+    padding: 0.5rem 0 0.2rem 0;
+  }
+
+  .row:first-of-type {
+    margin-top: -0.5rem;
+  }
+
+  .row:last-of-type {
+    border-bottom: 0;
+    margin-bottom: 1rem;
+  }
+}
+
+#template-fair-id {
+  width: inherit;
+}
+
+#event-options li,
+#booth-options li {
+  select {
+    width: 5em;
+  }
+
+  label {
+    display: inline;
+  }
+}
+
+.edit-fair-tabs {
+  float: right;
+  margin-top: 0.3rem;
+
+  dd:first-child {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+  }
+
+  dd:last-child {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+  }
+
+  .active > a {
+    font-weight: bold;
+  }
+
+  dd > a, .tab-title > a {
+    padding: 0.5rem 1rem;
+  }
+}
+
+.fair-name {
+  input[type="text"] {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+}
+
+.edit-fair-content {
+  h3 {
+    //font-weight: $font-weight-bold;
+  }
+}
+
+modify-booths {
+  ul {
+    list-style-type: none;
+    margin-left: 0;
+    margin-bottom: 2rem;
+  }
+
+  ul:last-of-type {
+    margin-bottom: 0;
+  }
+
+  li {
+    display: inline-block;
+    width: 5rem;
+    padding: 0.2em 0.5em;
+    margin: 0.2em 0.2em 0.6em 0.2em;
+    border: solid #dcdcdc 1px;
+    border-radius: 0.2em;
+    position: relative;
+
+    i {
+      float: right;
+    }
+  }
+
+  i.fi-trash {
+    cursor: pointer;
+
+    &:hover {
+      //color: $alert-color;
+    }
+  }
+}
+
+create-booths {
+  input[type="text"], input[type="number"] {
+    margin-bottom: 0.05rem;
+  }
+
+  i.fi-trash {
+    font-size: 1.2rem;
+
+    &:hover {
+      //color: $alert-color;
+    }
+  }
+}
+
+#event-name {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.sponsorship-level {
+  td, th {
+    position: relative;
+  }
+
+  input[type="text"], input[type="number"] {
+    margin-bottom: 0.05rem;
+  }
+
+  .sponsorship-level-name {
+    display: inline;
+    width: auto;
+  }
+}
+
+.sponsor-benefits {
+  margin-top: 1rem !important;
+
+  .benefit {
+    td, th {
+      position: relative;
+    }
+  }
+}
+
+.no-bullet input[type="radio"], .no-bullet input[type="checkbox"] {
+  margin-bottom: 0;
+}
+
+.primary-label {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.benefit-options, .benefit-types {
+  margin-top: 0.3rem;
+}
+
+.descriptive-label {
+  margin-bottom: 0.3rem;
+}
+
+.policy-label {
+  float: left;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.policy-label + .markdown-guide {
+  margin-top: 0.3rem;
+}

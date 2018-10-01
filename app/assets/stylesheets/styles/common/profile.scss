@@ -1,0 +1,104 @@
+fieldset {
+  border: 0;
+  padding: 0;
+  margin: 0;
+
+  legend {
+  //  font-size: rem-calc(24);
+  //
+  //  @media #{$medium-up} {
+  //    font-size: rem-calc(30);
+  //  }
+  }
+}
+
+fieldset fieldset {
+  border: 0;
+  padding: 0;
+
+  legend {
+    //font-size: rem-calc(20);
+    padding-bottom: 0;
+
+    //@media #{$medium-up} {
+    //  //font-size: rem-calc(24);
+    //}
+  }
+}
+
+legend span {
+  display: inline-block;
+  background-color: #000;
+  color: #FFF;
+  border-radius: 999px;
+  font-size: 1.7rem;
+  padding: 0 0.76rem;
+  margin-right: 0.2em;
+  margin-bottom: 0.5em;
+
+}
+
+label span, .instructions, p.instructions {
+  color: #9d9d9d;
+}
+
+label > input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+
+.website .large-1 {
+  //@media #{$large-up} {
+  //  width: 6%;
+  //}
+}
+
+.website .large-3 {
+  //@media #{$large-up} {
+  //  width: 32.7%;
+  //}
+}
+
+textarea#recruiter_company_company_description {
+  height: 175px;
+}
+
+.category-items {
+  list-style-type: none;
+  margin-left: 0.2rem;
+}
+
+.category-grid li {
+  display: inline-block;
+
+  //@media #{$small-only} {
+  //  width: 100% !important;
+  //}
+}
+
+.category-items input {
+  margin-bottom: 0.5rem;
+}
+
+.has-tip.fi-info {
+  font-size: 1.3em;
+  border: none;
+  position: relative;
+  top: 2px;
+  margin-left: -0.3em;
+}
+
+.student_checkboxes {
+  label small {
+    text-transform: inherit;
+  }
+}
+
+.student-update-profile {
+  legend {
+    margin-bottom: 0.7rem;
+  }
+
+  legend.legend_instruct {
+    margin-bottom: 0;
+  }
+}

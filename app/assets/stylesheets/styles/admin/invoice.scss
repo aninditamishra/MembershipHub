@@ -1,0 +1,130 @@
+.invoice-date {
+  font-size: 1.4875rem;
+  //font-weight: $font-weight-normal;
+  padding-bottom: 0.5em;
+  margin-bottom: 1em !important;
+  border-bottom: 1px solid #EFEAE1;
+
+  span {
+    //font-weight: $font-weight-bold;
+  }
+}
+
+.invoice-category table {
+  width: 100%;
+}
+
+.invoice-line-date {
+  width: 25%;
+
+  //@media #{$medium-up} {
+  //  width: 20%;
+  //}
+  //
+  //@media #{$large-up} {
+  //  width: 17%;
+  //}
+}
+
+.invoice-line-quantity {
+  width: 5%;
+}
+
+.invoice-line-description {
+  width: 40%;
+
+  //@media #{$medium-up} {
+  //  width: 45%;
+  //}
+  //
+  //@media #{$large-up} {
+  //  width: 50%;
+  //}
+}
+
+.invoice-payments .invoice-line-date {
+  width: 24%;
+}
+
+.invoice-line-price, .invoice-line-initials {
+  width: 13%;
+  text-align: right;
+}
+
+.invoice-line-total {
+  width: 15%;
+  text-align: right;
+}
+
+
+.invoice-payments .invoice-line-total {
+  width: 17%;
+}
+
+invoice-lines table {
+  input[type="checkbox"] {
+    margin: 0;
+  }
+
+  tr.not-applied td {
+    color: #aaa;
+    text-decoration: line-through;
+  }
+}
+
+#invoice-totals {
+  width: 100%;
+}
+
+#invoice-totals th {
+  width: 85%;
+  text-align: right;
+}
+
+#invoice-totals td {
+  width: 15%;
+  text-align: right;
+}
+
+#invoice-totals .balance th, #invoice-totals .balance td {
+  font-size: 1.2em;
+}
+
+invoice-add-lines-dialog {
+  input {
+    margin-bottom: 0 !important;
+  }
+
+  input[type=checkbox] {
+    margin-left: 0.1rem;
+  }
+}
+
+.add-lines-qty {
+  width: 4rem;
+}
+
+.add-lines-description {
+  width: 20rem;
+}
+
+.add-lines-price {
+  width: 7rem;
+}
+
+.remove-invoice-line {
+  float: left;
+
+  &:hover {
+    //color: $alert-color;
+  }
+}
+
+.invoice-invoice-maker-widget .widget-header {
+  border-radius: 0.15em 0.15em 0 0;
+  //background-color: $charcoal;
+
+  h3 {
+    color: #FFF;
+  }
+}

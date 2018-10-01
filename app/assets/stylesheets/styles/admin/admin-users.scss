@@ -1,0 +1,15 @@
+admin-users {
+  tbody .name {
+    background-color: #f5f5f5;
+  }
+
+  table tr.inactive-admin-user td {
+    color: #bbb;
+    text-decoration: line-through;
+  }
+}
+
+.new-admin-email-note {
+  font-size: 0.9rem;
+  font-weight: bold;
+}

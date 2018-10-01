@@ -1,0 +1,89 @@
+admin-dashboard {
+  h2 {
+    //font-weight: $font-weight-bold;
+    font-size: 1.8rem;
+  }
+
+  h3 {
+    //font-weight: $font-weight-bold;
+    font-size: 1.3rem;
+    line-height: 1.2;
+    margin-top: 1.2rem;
+  }
+
+  .registration-summary h3, h3.day-distribution-header {
+    margin-top: 0;
+  }
+
+  hr {
+    margin: 1.5rem 0 1rem;
+  }
+}
+
+.fair-stats-column {
+  //@media #{$large-up} {
+    //border-left: 1px solid #DDDDDD;
+  //}
+}
+
+admin-dashboard label {
+  color: #949494;
+  cursor: text;
+
+  .day-count {
+    color: black;
+  }
+}
+
+admin-dashboard .booth-pref label {
+  text-transform: capitalize;
+}
+
+.recent-companies {
+  list-style-type: none;
+  margin-left: 0;
+  margin-bottom: 0;
+  font-size: 0.9rem;
+}
+
+.stat {
+  font-weight: bold;
+}
+
+.stat.secondary {
+  font-weight: normal;
+  font-size: 0.9rem;
+}
+
+.row .row.booth-registration-bar {
+  margin-top: 0.5rem;
+}
+
+.day-bar-label {
+  text-transform: uppercase;
+  text-align: right;
+  font-size: 1.2rem;
+  position: relative;
+  top: 3px;
+}
+
+.bar-background {
+  width: 100%;
+  height: 2.5rem;
+  background-color: #ececec;
+  border-radius: 3px;
+}
+
+.bar-foreground {
+  height: 2.5rem;
+  //background-color: $primary-color;
+  color: white;
+  border-radius: 3px;
+
+  .percent {
+    font-size: 1rem;
+    position: relative;
+    top: 7px;
+    left: 6px
+  }
+}

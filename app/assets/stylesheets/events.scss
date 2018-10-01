@@ -1,0 +1,63 @@
+.event-row:hover {
+  cursor: pointer;
+}
+
+#event-table-wrapper {
+  width: 50%; /*can be in percentage also.*/
+  height: auto;
+  margin: 5% auto;
+  padding: 10px;
+  position: relative;
+}
+
+.main-content {
+  color: #202020;
+}
+
+
+#event-name {
+  font-size: 2.2rem;
+  margin: 0;
+}
+
+#event-date {
+  margin: 0 0 0 10px;
+}
+
+form {
+  display: inline-block;
+}
+
+.forms-container {
+  margin:  2rem 0;
+}
+
+textarea {
+  min-width: 400px;
+  min-height: 100px;
+  display: block;
+  font-size: 15px;
+}
+
+.text-display{
+  display: block;
+}
+
+input{
+  display: block;
+  font-size: 15px;
+}
+
+div.field{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.date-display{
+  font-size: 20px;
+  display: block;
+}
+
+.paragraph{
+  font-size: 20px;
+}

@@ -1,0 +1,70 @@
+.company-dashboard-header h1 {
+  float: left;
+}
+
+.company-dashboard-header-extra {
+  margin-top: 2em;
+  float: right;
+}
+
+next-fair dl, student-next-fair dl {
+  dt {
+    display: inline;
+  }
+
+  dd {
+    display: inline;
+    word-wrap: break-word;
+
+    &:after {
+     content:"\a";
+     white-space: pre;
+    }
+
+    &.reg-status {
+      font-weight: bold;
+    }
+
+    &.registered, &.mixed {
+      //color: $success-color;
+    }
+
+    &.not-registered {
+      //color: $alert-color;
+    }
+
+    &.registration_not_open {
+      color: inherit;
+      font-weight: inherit;
+    }
+
+    &.waitlisted {
+      //color: $warning-color;
+    }
+  }
+}
+
+main .left-bar.fair-information-nav {
+  //@include responsive-grid($s: 10, $m: 2, $l: 2);
+}
+
+.change-password {
+  display: inline-block;
+  margin-left: 1rem;
+  font-size: 1rem;
+
+  i {
+    display: inline-block;
+    padding-right: 0.1rem;
+  }
+
+  a {
+    //color: $greige;
+  }
+
+  //@media #{$small-only} {
+  //  display: block;
+  //  margin-top: 1rem;
+  //  margin-left: 0;
+  //}
+}

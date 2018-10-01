@@ -1,0 +1,64 @@
+@mixin ir {
+  display: block;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: 0;
+  overflow: hidden; /* IE 6/7 fallback */
+  text-indent: -9999px;
+
+  &:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+  }
+}
+
+@mixin svg($filename) {
+  background-image: url('/images/#{$filename}.svg');
+
+  .no-svg &{
+    background-image: url('/images/#{$filename}.png');
+  }
+}
+
+@mixin font-icon-only {
+  text-indent: -999em;
+
+  i {
+    text-indent: 999em;
+  }
+}
+
+@mixin responsive-grid($s, $m, $l, $s-offset: 0, $m-offset: 0, $l-offset: 0) {
+  //@include grid-column($s, $offset: $s-offset);
+  //
+  //@media #{$medium-up} {
+  //  @include grid-column($m, $offset: $m-offset);
+  //}
+  //
+  //@media #{$large-up} {
+  //  @include grid-column($l, $offset: $l-offset);
+  //}
+}
+
+@mixin tamu-side-nav {
+  //@include side-nav;
+  padding-top: 0;
+
+  li {
+    margin-bottom: 0;
+  }
+
+  li a {
+    //font-weight: $font-weight-normal;
+  }
+
+  li a:hover {
+    text-decoration: none;
+  }
+
+  li.active > a:first-child:not(.button) {
+    //background-color: $burgundy;
+  }
+}
